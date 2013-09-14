@@ -44,8 +44,9 @@
 					<?php else: ?>	
 						<?php
 						if ($slider_enabled == 'Yes'):
-						for ($i = 1; $i <= $number_of_slides; $i++) { ?>	  
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/image<? echo $i; ?>.jpg" alt="Slideshow Image" />
+						for ($i = 1; $i <= $number_of_slides; $i++) { 	  
+							echo '<img src="'.get_stylesheet_directory_uri().'/images/image'.$i.'.jpg" alt="Slideshow Image" />';
+						?>
 						<?php }; ?>
 						</div>
 						<script>
