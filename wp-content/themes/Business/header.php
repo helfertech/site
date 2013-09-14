@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php if (get_option('sg_enable_slider')=='') { ?> <?php } ?>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="wp-includes/js/jquery/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_directory_uri(); ?>/js/galleria.dots.css" />
 	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/galleria.js"></script>
 	<?php $number_of_slides = get_option('sg_slidenum'); $slider_enabled = get_option('sg_enable_slider');?>
@@ -29,7 +29,7 @@
 		<div class="top-menu">
 			<div id="sgmenu">
 				<ul class="menu">
-					<li <?php if (is_home()){ echo 'class="f current_page_item"';}else{'class="f"';} ;?>><a href="<?php echo get_option('home'); ?>">Home</a></li>
+					<!--<li <?php if (is_home()){ echo 'class="f current_page_item"';}else{'class="f"';} ;?>><a href="<?php echo get_option('home'); ?>">Home</a></li>-->
 					<?php wp_list_pages('sort_column=menu_order&title_li='); ?>
 				</ul>
 			</div>
@@ -77,4 +77,5 @@
 				</div>
 			</div>
 		</header>
+	<div id="custom_wrapper" class="custom_wrapper">
 	<section id="content">

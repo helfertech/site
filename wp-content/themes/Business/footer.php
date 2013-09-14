@@ -7,7 +7,7 @@
 ?>
 
 </section>
-
+</div>
 <!-- BEGIN footer -->
 <footer>
 	<div id="footerwrap">
