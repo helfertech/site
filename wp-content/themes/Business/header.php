@@ -23,7 +23,7 @@
 <body class="page_bg">
 	<header>
 		<div class="sitename">
-			<h1><a href="<?php echo get_option('home'); ?>" class="logo"><?php bloginfo('name'); ?></a></h1>
+			<h1><a href="<?php echo get_option('home'); ?>" class="logo"><img src="wp-includes/images/ht_logo.png"></a></h1>
 			<h2><?php bloginfo('description');?></h2>
 		</div>
 		<div class="top-menu">

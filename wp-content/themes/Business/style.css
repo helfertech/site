@@ -56,6 +56,11 @@ header {height: 455px;margin: 0 auto;position: relative;width: 964px}
 .author a,.author a:link,.author a:visited,.author a:hover{color:#626262;text-decoration:none;text-shadow:1px 1px #fff}
 .author .logo{background:url(images/sg_logo.png);background-position:top center;background-repeat:no-repeat;display:block;height:34px;margin:0 auto;width:260px}
 .posts { width: 670px;float: left; }
+
+#page_content {
+    border: 1px solid;
+    padding: 5px;
+}
 .custom_wrapper {
 	background: #7d7e7d; /* Old browsers */
 	background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6+ */
@@ -189,7 +194,7 @@ footer p a, footer p {color: #FFF !important; }
 #flash{bottom:0;left:0;overflow:hidden;position:absolute;right:0;top:0;z-index:100}
 #flash object{bottom:0;left:0;position:absolute;right:0;top:0}
 header h1 a, header h1 a:link, header h1 a:visited, header h1 a:hover {color: #464646;font-family: Arial;font-size: 32px;font-weight: 400;margin: 0;padding: 0;text-align: center;text-decoration: none;text-transform: uppercase;}
-.sitename {left: 0;margin: 0 auto;padding: 0;position: absolute;text-align: left;top: 28px;width: 440px;}
+.sitename {left: 0;margin: 0 auto;padding: 0;position: absolute;text-align: left;top: 34px;width: 440px;}
 .top-menu {height: 40px;right: 0;margin: 0 auto;padding: 0;position: absolute;top: 52px;width: 450px;}
 header #search {height: 24px;position: absolute;right: 0;top: 25px;width: 302px;}
 #search {float: right;}

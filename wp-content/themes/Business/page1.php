@@ -37,6 +37,7 @@ Template Name: Helfertech template
 		?>
 	
 		<!-- begin post -->
+		<div id="page_content">
 		<div class="single">
 			<div style="padding:0 0 40px">
 				<h2><a href="<?php the_permalink(); ?>"><?php //the_title(); ?></a></h2>
@@ -49,6 +50,7 @@ Template Name: Helfertech template
 					<?php the_content('Read more...'); ?>
 				</div>
 			</div>
+		</div>
 		</div>
 		<!-- end post -->
 		

@@ -11,7 +11,7 @@
 <!-- BEGIN footer -->
 <footer>
 	<div id="footerwrap">
-		<p>Powered by <a href="http://www.wordpress.org" target="_blank">Wordpress</a> | Designed by <a href="http://www.siteground.com/wordpress-hosting/wordpress-themes.htm" title="Wordpress Themes">SiteGround Wordpress Themes</a></p>
+		<p>© Copyright Helfertech ltd 2012, All Rights Reserved</p>
 	<div>
 </footer>
 </body>
